@@ -1,0 +1,173 @@
+ 
+.nav-item1 a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    
+}
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    font: bold;
+}
+ 
+#jambo{
+    background-image: url("./images/1st.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 75%;
+    height: 60vh;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.collapse::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    z-index: -5;
+    opacity: 0.5;    
+
+}
+.collapse ul li a{
+    color: white;
+    display: block;
+    padding: 3px 12px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.collapse ul li a:hover{
+    color: black;
+    background-color: rgb(100, 169, 248);
+}
+
+.secnav{
+    margin-left:auto;
+}
+
+.img1{
+    margin-left:15pc;
+    height: 120vh;
+    width: 50vw;
+}
+.b{
+    background-color: gainsboro;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+     
+}
+.tt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.card:hover{
+   background-color: black;
+}
+ 
+.ff{
+     padding-left: 38%;
+}
+
+h2{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+ .card
+ {
+     width: 18rem;
+ }
+ .mm{
+     margin-top: 50px;
+ }
+ .h{
+     height: 500px;
+ }
+ .bt{
+     margin-left: 40%;
+     background-size: 200%;
+     background-position: left;
+     transition: 2s background-position ease-in-out; 
+     background-image: linear-gradient(to right,black,black,blue,blue);
+ }
+ .bt:hover {
+     
+    background-position: right;
+}
+
+ 
+
+ 
+@media(max-width:700px)
+{
+    .card{
+        margin-left: auto;
+        width: 100%;
+        text-align: center;
+        
+    }
+     
+    .img1{
+        margin-left:50px;
+        align-items: auto;
+        height: 50vh;
+        
+        
+    }
+    .b{
+        background-color: gainsboro;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 75vh;
+         
+    }
+   .ff{
+        padding-left: 0%;
+   }
+    .mm{
+       margin-top: 40px;
+       font-size: 16px;
+        
+ }
+    .h{
+       height: 250px;
+      }
+ .ll{
+       width: 150px;
+
+   }
+   
+  
+   .foot{
+       font-size: 8px;
+   }
+  .progress-bar{
+       height: 10px;
+   }
+   .bt{
+       margin-left: 30%;
+   }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
